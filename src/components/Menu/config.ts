@@ -8,12 +8,12 @@ const config: MenuEntry[] = [
   },
   
   {
-    label: 'Farms',
+    label: 'Dividend Pools',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'Staking Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
