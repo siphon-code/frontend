@@ -52,20 +52,20 @@ const Syrup: React.FC = () => {
         <Flex justifyContent="space-between">
           <Flex flexDirection="column" mr={['8px', 0]}>
             <Heading as="h1" size="xxl" color="secondary" mb="24px">
-              {TranslateString(999, 'Syrup Pools')}
+              {TranslateString(999, 'SPHN Pools')}
             </Heading>
             <Heading size="md" color="text">
-              {TranslateString(999, 'Simply stake tokens to earn.')}
+              {TranslateString(999, 'Simply stake your SPHN tokens to earn.')}
             </Heading>
             <Heading size="md" color="text">
               {TranslateString(999, 'High APR, low risk.')}
             </Heading>
           </Flex>
           <Flex>
-            <StyledLink color="backgroundAlt" href="https://docs.pancakeswap.finance/syrup-pools/syrup-pool" external>
+            <StyledLink color="backgroundAlt" href="https://siphon.finance" external>
               <Button px={['14px', null, null, null, '24px']} variant="subtle">
                 <ButtonText color="backgroundAlt" fontSize="16px" bold>
-                  {TranslateString(999, 'Help')}
+                  {TranslateString(999, 'vote4pool')}
                 </ButtonText>
                 <HelpIcon color="backgroundAlt" ml={[null, null, null, 0, '6px']} />
               </Button>
