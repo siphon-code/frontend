@@ -10,7 +10,7 @@ import CakeHarvestBalance from './CakeHarvestBalance'
 import CakeWalletBalance from './CakeWalletBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/cake-bg.svg');
+  background-image: url('/images/SF.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
@@ -59,7 +59,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/cake.svg" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/SF.png" alt="siphon logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'SIPHON to Harvest')}:</Label>
           <CakeHarvestBalance />
@@ -77,7 +77,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting CAKE')
+                ? TranslateString(548, 'Collecting SIPHON')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`, {
                     count: balancesWithValue.length,
                   })}
