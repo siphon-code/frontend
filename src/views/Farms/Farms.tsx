@@ -285,7 +285,7 @@ const Farms: React.FC = () => {
           {TranslateString(674, 'Farms')}
         </Heading>
         <Heading size="lg" color="text">
-          {TranslateString(999, 'Stake Liquidity Pool (LP) tokens to earn.')}
+          {TranslateString(999, 'Deposit 100 SPHN into a dividend pool to mint an NFT and receive aidropped dividends')}
         </Heading>
       </PageHeader>
       <Page>
@@ -334,7 +334,7 @@ const Farms: React.FC = () => {
           </FilterContainer>
         </ControlContainer>
         {renderContent()}
-        <StyledImage src="/images/3dpan.png" alt="Pancake illustration" width={120} height={103} />
+        <StyledImage src="/images/SF.png" alt="Siphon illustration" width={120} height={103} />
       </Page>
     </>
   )
