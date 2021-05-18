@@ -10,7 +10,7 @@ import {
   Box,
   Flex,
   ExpandableLabel,
-} from '@pancakeswap-libs/uikit'
+} from 'siphon-uikit'
 import useI18n from 'hooks/useI18n'
 import { TeamRanksProps } from '../../../types'
 import TopTradersGrid from './TopTradersGrid'

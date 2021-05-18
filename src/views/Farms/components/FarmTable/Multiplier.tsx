@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { HelpIcon, useTooltip } from '@pancakeswap-libs/uikit'
+import { HelpIcon, useTooltip } from 'siphon-uikit'
 import useI18n from 'hooks/useI18n'
 
 const ReferenceElement = styled.div`
@@ -42,10 +42,13 @@ const Multiplier: React.FunctionComponent<MultiplierProps> = ({ multiplier }) =>
       )}
     </div>
   )
-  const { targetRef, tooltip, tooltipVisible } = useTooltip(tooltipContent, 'top-end', 'hover', undefined, undefined, [
-    20,
-    10,
-  ])
+  const { targetRef, tooltip, tooltipVisible } = useTooltip(tooltipContent, {
+    placement: 'top-end', 
+    trigger: 'hover', 
+    arrowPadding: undefined, 
+    tooltipPadding: undefined, 
+    tooltipOffset: [20,10]}
+    )
 
   return (
     <Container>
